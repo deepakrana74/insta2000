@@ -8,7 +8,6 @@
     class AdminController extends Controller{
 
         public function actionIndex(){
-         echo 'dsfdsf';
             
         }   
     }
