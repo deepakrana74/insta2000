@@ -8,10 +8,10 @@
     use app\models\Pages;
 
     class PageController extends Controller{
-
         public $enableCsrfValidation = false; //disable csrf
 
         public function actionIndex(){
+            echo 'dsfdf';
 
             //call the model here
             $page_model = new Pages();
